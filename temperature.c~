@@ -1,0 +1,16 @@
+#include <stdio.h>
+#define FREEZINGP 32.0
+#define SCALEF 5.0f/9.0
+int main(void)
+{
+  float fah,celsius;
+
+  printf("enter fah: ");
+  scanf("%f" ,&fah);
+
+  celsius = (fah - FREEZINGP) * SCALEF;
+  printf("%f ", &celsius);
+  
+
+
+ }
