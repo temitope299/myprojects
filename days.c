@@ -4,14 +4,18 @@ int main(void){
   day = "tuesday";
 
   switch(days){
-  case1 "monday":
+  case  "monday":
     printf("today is monday");
-  case2 "tuesday":
+    break;
+  case 2 "tuesday":
     printf("today is tuesday");
-  case3 "wednesday":
+    break;
+  case 3 "wednesday":
     printf("today is wednesday");
-  case4 "thursday":
+    break;
+  case 4 "thursday":
     printf("today is thursday");
+    break;
   default:
     printf("you entered an invalid input");
   }
